@@ -9,7 +9,7 @@ from keyboards import reply
 
 
 async def main():
-	TOKEN = "6447465555:AAG6qCFU4FMolxpZcIglPv1az_IJYr1zkIo"
+	TOKEN = ""
 	mode = ParseMode.HTML
 	HTML = DefaultBotProperties(parse_mode=mode)
 	bot = Bot(token=TOKEN, default=HTML)
