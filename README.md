@@ -1,77 +1,84 @@
 ```markdown
 # Aiogram Telegram Bot Template
 
-This repository contains a **starter template for creating Telegram bots** using Python and [aiogram==3](https://docs.aiogram.dev/). It's designed to make the development process faster and more convenient, especially for developers who frequently create Telegram bots.
-
-## Why This Repository?  
-
-I created this template because I develop many Telegram bots, and rewriting the base code from scratch for every new bot is time-consuming. To save time and improve efficiency, I decided to build and share this repository with the community. Now, it's much easier to start a new bot project with a well-structured foundation.
+This repository provides a **starter template** for creating Telegram bots using Python and [aiogram==3](https://docs.aiogram.dev/). It is designed to simplify the development process for those who frequently create bots, offering a reusable and structured codebase.
 
 ---
 
-## Features  
+## Why Use This Template?
 
-- **Aiogram 3 Ready**: Updated to work seamlessly with the latest aiogram version.
-- **Clean Code Structure**: Easily understandable and modularized code for better maintainability.
-- **Beginner-Friendly**: Perfect for developers starting with Telegram bot development.
-- **Open Source**: Publicly available for everyone to use, contribute to, and customize.
+As a developer who creates many Telegram bots, starting from scratch every time can be inefficient. This template serves as a base to speed up the development process while maintaining consistency and quality. By making this repository public, others can also benefit from it.
 
 ---
 
-## How to Use  
+## Features
 
-1. Clone this repository:  
+- **Ready-to-Use Aiogram Template**: Compatible with the latest `aiogram==3`.
+- **Well-Organized Codebase**: Clean and modular structure for better scalability.
+- **Reusable Components**: Includes basic handlers, keyboards, and callbacks.
+- **Beginner-Friendly**: Easy to understand and extend.
+- **Public Repository**: Available for everyone to use and contribute to.
+
+---
+
+## How to Use
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/aiogram-telegram-bot-template.git
-   cd aiogram-telegram-bot-template
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
    ```
 
-2. Install dependencies:  
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Configure your bot token in the `.env` file:  
+3. Set up your `.env` file with the bot token:
    ```
    BOT_TOKEN=your-telegram-bot-token
    ```
 
-4. Run the bot:  
+4. Run the bot:
    ```bash
    python bot.py
    ```
 
 ---
 
-## Folder Structure  
+## Project Structure
 
 ```plaintext
-aiogram-telegram-bot-template/
-│
+telegram-bot-plugin/
 ├── bot.py                # Main bot file
-├── handlers/             # Folder for bot handlers (commands, messages, etc.)
-├── middlewares/          # Custom middlewares
-├── utils/                # Utility scripts
-├── .env                  # Environment variables
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+├── callbacks/            # Callback functions for inline buttons
+├── data/                 # Storage for bot data
+├── handlers/             # Handlers for commands and messages
+├── keyboards/            # Inline and reply keyboards
+├── requirements.txt      # List of dependencies
+├── README.md             # Project documentation
 ```
 
 ---
 
-## Contributing  
+## Contributing
 
-Feel free to contribute by submitting issues, feature requests, or pull requests. Any feedback or ideas are welcome!
-
----
-
-## License  
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve this repository.
 
 ---
 
-Enjoy building awesome Telegram bots with ease! 🎉
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
+---
+
+Happy coding! 🎉
 ```
 
-You can adapt this template to better fit your specific needs or style. Let me know if you'd like further adjustments!
+### Key Details
+1. The project structure section uses code blocks with triple backticks (` ```plaintext `) to display the folder hierarchy clearly.
+2. Markdown syntax for bold (`**bold text**`) and headers (`#`) is correct and works in GitHub.
+3. Replace `your-username` and `your-repo-name` with your GitHub username and repository name.
+
+Let me know if you need help with additional customizations!
